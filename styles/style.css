@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+     --branco-primaria: #FFFFFF;
+     --vermelho-secundaria: #EC2F46;
+     --preto-tercearia: #040814;
+     --azul-quartenaria: #167BF7;
+     --branco-quintaria: #C0C0C0;
+     
+     --fonte-principal: "Inter", sans-serif;
+}
+
+body{
+     background-color: var(--preto-tercearia);
+     color: var(--branco-primaria);
+     font-family: var(--fonte-principal);
+     font-size: 1rem;
+     font-weight: 400;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+
+.principal{
+     background-image: url("../assets/Background.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+.conteiner{
+     height: 100vh;
+     display: grid;
+     grid-template-columns: 50% 50%;
+}
+
+.principal__conteudo__titulo{
+     font-size: 1.75rem;
+     font-weight: 700;
+}
+
+.principal__botao__alura{
+     background-color: var(--azul-quartenaria);
+     border-radius: 5px;
+     padding: 1em;
+     color: var(--branco-primaria);
+
+     text-align: center;
+     text-decoration: none;
+     display: block;
+}
+
+.botao__aluralingua__alteracoes{
+     background-color: transparent;
+     border: 2px solid var(--branco-primaria);
+}
+
+.principal__conteudo__paragrafo{
+     font-size: 0.75rem;
+     color: var(--branco-quintaria);
+}
+
+
