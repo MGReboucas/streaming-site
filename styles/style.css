@@ -112,6 +112,61 @@ body{
      padding: 2em;
 }
 
+.dispositivos{
+     text-align: center;
+}
+
+.dispositivos__titulo{
+     font-size: 3rem;
+     margin-bottom: 1em;
+}
+
+.dispositivos__h3{
+     font-size: 2rem;
+}
+
+.dispoditivos__lista{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;
+}
+
+.footer-final{
+     align-items: center;
+     text-align: center;
+     margin: 10em 0em 0em 0em;
+     
+}
+
+.footer-final__imagem{
+     margin: 0em 0em 2em 0em;
+}
+
+.footer-final__lista{
+     display: flex;
+     justify-content: center;
+     list-style: none;
+     gap: 20px;
+}
+
+.lista__item a{
+     color: var(--branco-primaria);
+     
+     text-decoration: none;
+}
+
+.lista__item a:hover{
+     color: var(--azul-quartenaria);
+}
+
+.footer-final__paragrafo{
+     font-size: 0.875rem;
+     color: var(--branco-quintaria);
+     margin: 3em 0em 2em 0em;
+     padding: 0em 5em 0em 5em;
+}
+
+
 
 
 
